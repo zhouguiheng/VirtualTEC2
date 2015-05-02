@@ -1,0 +1,483 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TEC2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TEC2.ico"
+IDI_LEDON_GREEN         ICON    DISCARDABLE     "res\\LedOnGreen.ico"
+IDI_LEDON_RED           ICON    DISCARDABLE     "res\\LedOnRed.ico"
+IDI_LEDOFF_RED          ICON    DISCARDABLE     "res\\LedOffRed.ico"
+IDI_LEDOFF_GREEN        ICON    DISCARDABLE     "res\\LedOffGreen.ico"
+IDI_SWON                ICON    DISCARDABLE     "res\\SwOn.ico"
+IDI_SWOFF               ICON    DISCARDABLE     "res\\SwOff.ico"
+IDI_SWITCHON            ICON    DISCARDABLE     "res\\SwitchOn.ico"
+IDI_SWITCHOFF           ICON    DISCARDABLE     "res\\SwitchOff.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 274, 62
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TEC-2 模拟机"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TEC2 实验系统  1.0",IDC_STATIC,77,9,82,8,SS_NOPREFIX
+    LTEXT           "设计者: 周桂衡   指导老师: 李国桢",IDC_STATIC,54,21,138,
+                    8
+    DEFPUSHBUTTON   "确定",IDOK,207,13,50,14,WS_GROUP
+    LTEXT           "E-mail:",IDC_STATIC,61,37,28,9
+    PUSHBUTTON      "modengxian21@163.com",IDC_EMAIL,91,35,89,12
+END
+
+IDD_TEC2_DIALOG DIALOGEX 0, 0, 500, 333
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TEC-2 实验系统模拟机"
+MENU IDR_MAINFRAME
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_D1,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,377,251,15,35
+    CONTROL         "",IDC_D2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,357,251,
+                    15,35
+    CONTROL         "",IDC_D3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,251,
+                    15,35
+    CONTROL         "",IDC_D4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,317,251,
+                    15,35
+    CONTROL         "",IDC_D5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,287,251,
+                    15,35
+    CONTROL         "",IDC_D6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,267,251,
+                    15,35
+    CONTROL         "",IDC_D7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,247,251,
+                    15,35
+    CONTROL         "",IDC_D8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,251,
+                    15,35
+    CONTROL         "",IDC_D9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,197,251,
+                    15,35
+    CONTROL         "",IDC_D10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,177,251,
+                    15,35
+    CONTROL         "",IDC_D11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,157,251,
+                    15,35
+    CONTROL         "",IDC_D12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,137,251,
+                    15,35
+    CONTROL         "",IDC_D13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,251,
+                    15,35
+    CONTROL         "",IDC_D14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,87,251,
+                    15,35
+    CONTROL         "",IDC_D15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,251,
+                    15,35
+    CONTROL         "",IDC_D16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,47,251,
+                    15,35
+    CONTROL         "",IDC_LED1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,363,55,
+                    10,15
+    CONTROL         "",IDC_LED2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,347,55,
+                    10,15
+    CONTROL         "",IDC_LED3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,333,55,
+                    10,15
+    CONTROL         "",IDC_LED4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,317,55,
+                    10,15
+    CONTROL         "",IDC_LED5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,297,55,
+                    10,15
+    CONTROL         "",IDC_LED6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,282,55,
+                    10,15
+    CONTROL         "",IDC_LED7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,267,55,
+                    10,15
+    CONTROL         "",IDC_LED8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,55,
+                    10,15
+    CONTROL         "",IDC_LED9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,55,
+                    10,15
+    CONTROL         "",IDC_LED10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,217,
+                    55,10,15
+    CONTROL         "",IDC_LED11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,203,
+                    55,10,15
+    CONTROL         "",IDC_LED12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,187,
+                    55,10,15
+    CONTROL         "",IDC_LED13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,
+                    55,10,15
+    CONTROL         "",IDC_LED14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,152,
+                    55,10,15
+    CONTROL         "",IDC_LED15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,137,
+                    55,10,15
+    CONTROL         "",IDC_LED16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,
+                    55,10,15
+    GROUPBOX        "手拨数据",IDC_STATIC,27,244,375,60,NOT WS_VISIBLE
+    GROUPBOX        "LED",IDC_STATIC,107,41,280,40,NOT WS_VISIBLE
+    CTEXT           "D15",IDC_STATIC,47,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D14",IDC_STATIC,67,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D13",IDC_STATIC,87,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D12",IDC_STATIC,107,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D11",IDC_STATIC,137,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D10",IDC_STATIC,157,287,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D9",IDC_STATIC,182,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D8",IDC_STATIC,202,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D7",IDC_STATIC,232,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D6",IDC_STATIC,252,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D5",IDC_STATIC,272,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D4",IDC_STATIC,292,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D3",IDC_STATIC,322,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D1",IDC_STATIC,362,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D2",IDC_STATIC,342,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "D0",IDC_STATIC,382,287,8,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "STEP",IDC_STEP,365,169,49,17
+    CONTROL         "",IDC_WAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,291,175,
+                    15,35
+    LTEXT           "CONT",IDC_STATIC,291,165,17,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "STEP",IDC_STATIC,291,211,17,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "LDMC/RESET",IDC_LDMC,397,199,51,19,BS_MULTILINE
+    CONTROL         "",IDC_FS1,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,175,171,15,35
+    CONTROL         "",IDC_FS2,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,195,171,15,35
+    CONTROL         "",IDC_FS3,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,215,171,15,35
+    CONTROL         "",IDC_FS4,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,235,171,15,35
+    GROUPBOX        "功能选择",IDC_STATIC,165,161,95,60,NOT WS_VISIBLE
+    CTEXT           "FS1",IDC_STATIC,175,207,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "FS2",IDC_STATIC,195,207,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "FS3",IDC_STATIC,215,207,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "FS4",IDC_STATIC,235,207,13,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_S0,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,105,171,15,35
+    CONTROL         "",IDC_S1,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,85,171,15,35
+    CONTROL         "",IDC_S2,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,65,171,15,35
+    GROUPBOX        "显示选择",IDC_STATIC,55,161,75,60,NOT WS_VISIBLE
+    CTEXT           "S0",IDC_STATIC,105,205,9,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "S1",IDC_STATIC,85,205,9,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "S2",IDC_STATIC,65,205,9,8,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SW1_0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,421,
+                    103,14,20
+    CONTROL         "",IDC_SW1_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,407,
+                    103,14,20
+    CONTROL         "",IDC_SW1_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,393,
+                    103,14,20
+    CONTROL         "",IDC_SW1_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,379,
+                    103,14,20
+    CONTROL         "",IDC_SW1_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,
+                    103,14,20
+    CONTROL         "",IDC_SW1_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,351,
+                    103,14,20
+    CONTROL         "",IDC_SW1_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,
+                    103,14,20
+    CONTROL         "",IDC_SW1_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,323,
+                    103,14,20
+    CONTROL         "",IDC_SW1_8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,309,
+                    103,14,20
+    CONTROL         "",IDC_SW1_9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,295,
+                    103,14,20
+    CONTROL         "",IDC_SW1_10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,281,
+                    103,14,20
+    CONTROL         "",IDC_SW1_11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,267,
+                    103,14,20
+    CONTROL         "",IDC_SW2_0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,
+                    103,14,20
+    CONTROL         "",IDC_SW2_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,
+                    103,14,20
+    CONTROL         "",IDC_SW2_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,
+                    103,14,20
+    CONTROL         "",IDC_SW2_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,
+                    103,14,20
+    CONTROL         "",IDC_SW2_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,156,
+                    103,14,20
+    CONTROL         "",IDC_SW2_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,142,
+                    103,14,20
+    CONTROL         "",IDC_SW2_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,128,
+                    103,14,20
+    CONTROL         "",IDC_SW2_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,114,
+                    103,14,20
+    CONTROL         "",IDC_SW2_8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,
+                    103,14,20
+    CONTROL         "",IDC_SW2_9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,
+                    103,14,20
+    CONTROL         "",IDC_SW2_10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,
+                    103,14,20
+    CONTROL         "",IDC_SW2_11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,58,
+                    103,14,20
+    GROUPBOX        "SW2",IDC_STATIC,46,89,185,44,NOT WS_VISIBLE
+    GROUPBOX        "SW1",IDC_STATIC,255,89,187,44,NOT WS_VISIBLE
+    PUSHBUTTON      "RESET",IDC_RESET,337,199,48,20
+    PUSHBUTTON      "监控程序",IDC_MONITOR,425,250,50,20
+    PUSHBUTTON      "退出",IDC_EXIT,425,280,50,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TEC-2 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TEC2\0"
+            VALUE "LegalCopyright", "版权所有 (C) 周桂衡 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TEC2.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "TEC2 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_TEC2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 326
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "操作(&O)"
+    BEGIN
+        MENUITEM "单步(&S)",                    IDC_STEP
+        MENUITEM "重置(&R)",                    IDC_RESET
+        MENUITEM "加载微码(&L)",                IDC_LDMC
+        MENUITEM SEPARATOR
+        MENUITEM "监控程序(&M)",                IDC_MONITOR
+        MENUITEM "退出(&X)",                    IDC_EXIT
+    END
+    POPUP "运行方式(&R)"
+    BEGIN
+        MENUITEM "单步(&S)",                    ID_RUN_STEP
+        MENUITEM "连续(&C)",                    ID_RUN_CONT
+    END
+    POPUP "显示选择(&V)"
+    BEGIN
+        MENUITEM "&1. B7-B0 P3-P0 SZVC\tCtrl+0", ID_LED_1
+        MENUITEM "&2. B23 - B8\tCtrl+1",        ID_LED_2
+        MENUITEM "&3. B39 - B24\tCtrl+2",       ID_LED_3
+        MENUITEM "&4. B55 - B40\tCtrl+3",       ID_LED_4
+        MENUITEM "&5. MCA9-0 微令地址\tCtrl+4", ID_LED_5
+        MENUITEM "&6. AB15-0 地址总线\tCtrl+5", ID_LED_6
+        MENUITEM "&7. RD15-0 运算器输出\tCtrl+6", ID_LED_7
+        MENUITEM "&8. IB15-0 内部总线\tCtrl+7", ID_LED_8
+    END
+    POPUP "功能选择(&F)"
+    BEGIN
+        MENUITEM "&1. 运算器实验",              ID_F_1
+        MENUITEM "&2. 装入微程序",              ID_F_2
+        MENUITEM "&3. 执行微程序",              ID_F_3
+        MENUITEM "&4. 存储器写(单步)",          ID_F_4
+        MENUITEM "&5. 存储器读(单步)",          ID_F_5
+        MENUITEM "&6. 存储器读(连续)",          ID_F_6
+        MENUITEM "&7. 从0地址连续执行",         ID_F_7
+        MENUITEM "&8. 从指定地址单步执行",      ID_F_8
+        MENUITEM "&9. 从指定地址连续执行",      ID_F_9
+    END
+    POPUP "联机风格(&M)"
+    BEGIN
+        MENUITEM "&1. 经典怀旧",                ID_STYLE_1
+        MENUITEM "&2. 黑白分明",                ID_STYLE_2
+        MENUITEM "&3. 白纸黑字",                ID_STYLE_3
+        MENUITEM "&4. 蓝天白云",                ID_STYLE_4
+        MENUITEM "&5. 春意盎然",                ID_STYLE_5
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "TEC-2 帮助(&I)...",           ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                 ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR  DISCARDABLE     "res\\harrow.cur"
+IDC_LINK                CURSOR  DISCARDABLE     "res\\Hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\BackGround.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 TEC2(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\TEC2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
